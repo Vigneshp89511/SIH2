@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "react-router-dom": "^7.9.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:https": "HTTPS=true SSL_CRT_FILE=localhost.pem SSL_KEY_FILE=localhost-key.pem react-scripts start"
+  }
+}
